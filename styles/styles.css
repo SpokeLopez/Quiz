@@ -1,0 +1,56 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #272343;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-weight: 400;
+    color: #57636e;
+    font-size: 3rem;
+    text-align: center;
+    padding: 2px 0;
+}
+
+#quiz{
+    text-align: center;
+    font-weight: 400;
+    background-color: #e3f6f5;
+    width: 30rem;
+    padding: 4rem;
+    #question{
+        color: #5a6773;
+        font-weight: 200;
+    }
+}
+
+#choices {
+    .button {
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        font-weight: 200;
+        color: white;
+        background-color: #34a3a3;
+        width: 250px;
+        border-radius: .3rem;
+        padding: 10px 20px;
+        margin: 10px 40px 10px 0;
+        outline: 0;
+        &:hover{
+            background-color: #647D87;
+            cursor: pointer;
+        }
+    }
+}
+
+#progress {
+    font-size: 16px;
+}
